@@ -8,15 +8,19 @@ from src.advanced_path_patching import *
 import spacy, random
 import numpy as np
 
+"""
+This script performs path patching to analyze the contribution of specific attention heads
+to Named Entity Recognition (NER) tasks using a GPT-2 model.
+"""
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--device", type=str, default="cuda:1" if torch.cuda.is_available() else "cpu")
 parser.add_argument("--head", type=int, default=None)
 parser.add_argument("--layer", type=int, default=11)
-parser.add_argument("--dataset_path", type=str, default="../../pos_cf_datasets/ner_dataset_15each.json")
+parser.add_argument("--dataset_path", type=str, default="../data/ner_dataset_15each.json")
 parser.add_argument("--component", type=str, default="z")
 parser.add_argument("--save_dir", type=str, default="results/ner_small_dataset/kl_divergence")
 parser.add_argument("--metric", type=str, default="kl_divergence")
-#parser.add_argument("--model_name", type=str, default="gemma-2b")
 parser.add_argument("--model_name", type=str, default="gpt2-small")
 parser.add_argument("--null_task", action="store_true")
 parser.add_argument("--allow_multitoken", action="store_true")
@@ -194,9 +198,6 @@ for i, item in enumerate(tv_data):
     del source_toks, corr_toks, ans_tokens
     torch.cuda.empty_cache()
     num_samples += 1
-    # if args.max_samples < 100:
-    #     if num_samples >= args.max_samples:
-    #         break
     print(f"Completed {num_samples} samples", end="\r")
     
 output/=num_samples

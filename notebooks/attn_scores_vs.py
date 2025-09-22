@@ -4,6 +4,13 @@ sys.path.append(os.path.abspath(".."))  # go up one level to the root
 from utils.utils import *
 import numpy as np, matplotlib.pyplot as plt
 
+"""
+This script computes the correlation between attention scores 
+and the dot product between the token embedding and head outputs.
+It generates scatter plots for heads with strong positive correlation.
+It also creates a heatmap of correlation values across all heads.
+"""
+
 model_name = "gpt2-small"
 device ="cuda:1"
 model = HookedTransformer.from_pretrained(
@@ -14,6 +21,9 @@ model = HookedTransformer.from_pretrained(
         device = device
     )
 
+figure_path = "figures_gpt"
+os.makedirs(figure_path, exist_ok=True)
+
 attn_cache = {}
 strong=moderate=nearzero=valid=anticopy=0  # before the layer/head loops
 corr_map = np.full((model.cfg.n_layers, model.cfg.n_heads), np.nan)
@@ -21,52 +31,50 @@ corr_map = np.full((model.cfg.n_layers, model.cfg.n_heads), np.nan)
 for layer_i in range(model.cfg.n_layers):
     for head_i in range(model.cfg.n_heads):
     
-# layer_i, head_i = 8, 11  # 0-indexed
-
         template = """Sentence: Apple announced a new iPhone during its annual product launch event.,
-        POS tag: PRODUCT,
+        Entity: PRODUCT,
         Answer: iPhone
 
         Sentence: Barack Obama delivered a keynote speech at the conference.,
-        POS tag: PERSON,
+        Entity: PERSON,
         Answer: Barack Obama
 
         Sentence: Tesla invested over 2 billion dollars in a new gigafactory in Germany.,
-        POS tag: MONEY,
+        Entity: MONEY,
         Answer: 2 billion dollars
 
         Sentence: The concert will take place at 8 p.m. on Saturday.,
-        POS tag: TIME,
+        Entity: TIME,
         Answer: 8 p.m. on Saturday
 
         Sentence: The Eiffel Tower is located in Paris.,
-        POS tag: LOCATION,
+        Entity: LOCATION,
         Answer: Paris
 
         Sentence: The Olympic Games in Tokyo attracted thousands of visitors despite the pandemic.,
-        POS tag: EVENT, 
+        Entity: EVENT,
         Answer: Olympic Games
 
         Sentence: The recipe calls for 200 grams of sugar and 3 eggs.,
-        POS tag: NUMERICAL, 
+        Entity: NUMERICAL,
         Answer: 200 grams
 
         Sentence: Google has opened a new research center in Zurich to focus on AI development.,
-        POS tag: ORGANIZATION, 
+        Entity: ORGANIZATION,
         Answer: Google
 
         Sentence: The Islam religion has over a billion followers worldwide.,
-        POS tag: NATIONALITY, RELIGIOUS, or POLITICAL GROUP, 
+        Entity: NATIONALITY, RELIGIOUS, or POLITICAL GROUP,
         Answer: Islam
 
         Sentence: {sentence}
-        POS tag: {tag}
+        Entity: {tag}
         Answer:"""
 
         per_sentence_scores = []
         model.eval()
 
-        ner_solid_samples = load_json("../../pos_cf_datasets/ner_correct_alot.json")
+        ner_solid_samples = load_json("../data/ner_correct_alot.json")
 
         model.eval()
         L, H = layer_i, head_i  # 0-based
@@ -109,7 +117,7 @@ for layer_i in range(model.cfg.n_layers):
         mask = (np.array(logit_totals)>=q1)&(np.array(logit_totals)<=q99)
         r = np.corrcoef(np.array(attn_totals)[mask], np.array(logit_totals)[mask])[0,1]
 
-        #r = np.corrcoef(attn_totals, logit_totals)[0,1] if len(attn_totals)>=2 and np.std(attn_totals)>0 and np.std(logit_totals)>0 else float("nan")
+        # thresholds for strong/moderate/near-zero anticopy heads
         if not np.isnan(r):
             valid+=1
             if r>=0.7: strong+=1
@@ -124,28 +132,39 @@ for layer_i in range(model.cfg.n_layers):
         if not np.isnan(r) and r>=0.7:
             xs, ys, top = [], [], []
             for item in ner_solid_samples:
+                # try both with and without leading space
                 sent, ans = item["Sentence"].replace('"','')+".", item["Answer"].replace('"','')
-                tokens = model.to_tokens(sent, prepend_bos=False).to(device); seq_ids = tokens[0]
+                tokens = model.to_tokens(sent, prepend_bos=False).to(device); 
+                seq_ids = tokens[0]
+
+                # run the model and cache what we need
                 with torch.no_grad():
                     _, cache = model.run_with_cache(tokens, names_filter=lambda n: n in {f"blocks.{L}.attn.hook_pattern", f"blocks.{L}.ln1.hook_normalized"})
+                # get attn probs a_{t_end -> j} for this head
                 a = cache[f"blocks.{L}.attn.hook_pattern"][0,H]; attn_row = a[a.shape[0]-1]
+                # get layer-L input (post-LN1) x^{(L)} for this head
                 o = (attn_row.unsqueeze(1)*((cache[f"blocks.{L}.ln1.hook_normalized"][0]@model.W_V[L,H])@model.W_O[L,H]))
+                # find answer span (try with and without leading space)
                 span=None; cands=[model.to_tokens(ans,False)[0].tolist(), model.to_tokens(" "+ans,False)[0].tolist()]; cands=[p for i,p in enumerate(cands) if p and p not in cands[:i]]
                 seq_list=seq_ids.tolist()
+                # find first match
                 for pat in cands:
                     for s in range(len(seq_list)-len(pat)+1):
                         if seq_list[s:s+len(pat)]==pat: span=list(range(s,s+len(pat))); break
                     if span is not None: break
-                if not span: continue
+                if not span: 
+                    continue
+                # find indices for span
                 idx = torch.tensor(span, device=attn_row.device)
+                # get name embedding by multiplying W_U by the token id of the first token in the answer
                 WU_name = model.W_U[:, model.to_tokens(ans, False)[0][0].item()]
+                # add each attn prob and corresponding dot prod to lists for scatter plot
                 xs += attn_row.index_select(0,idx).tolist()
-                contrib = (o.index_select(0,idx) @ WU_name)          # [m]
+                contrib = (o.index_select(0,idx) @ WU_name)
                 ys += contrib.tolist()
-                #top.append((contrib.sum().item(), sent, item["Answer"]))
-                score = (o.index_select(0,idx) @ WU_name).max().item()   # use .sum().item() for total
-                top.append((score, sent, item["Answer"], item.get("POS tag","?")))
-                #top.append((contrib.sum().item(), sent, item["Answer"], item.get("POS tag","?")))
+                score = (o.index_select(0,idx) @ WU_name).max().item()
+                top.append((score, sent, item["Answer"], item.get("Entity","?")))
+                #top.append((contrib.sum().item(), sent, item["Answer"], item.get("Entity","?")))
 
             # save scatter
             fig, ax = plt.subplots(figsize=(6.5, 4.5), dpi=150)
@@ -170,7 +189,7 @@ for layer_i in range(model.cfg.n_layers):
 
             ax.grid(True, alpha=0.2)
             fig.tight_layout()
-            fig.savefig(f"figures_gpt/name_mover_scatter_L{L}_H{H}.png", dpi=300)
+            fig.savefig(f"{figure_path}/name_mover_scatter_L{L}_H{H}.png", dpi=300)
             plt.close(fig)
             # print top-10 examples by total dot toward name
             for val, sent, ans, tag in sorted(top, key=lambda x: x[0], reverse=True)[:10]:
@@ -185,5 +204,5 @@ plt.xticks(range(model.cfg.n_heads), range(model.cfg.n_heads))
 plt.yticks(range(model.cfg.n_layers), [f"L{i}" for i in range(model.cfg.n_layers)])
 plt.xlabel("Head"); plt.ylabel("Layer"); plt.title("Head correlation heatmap")
 plt.tight_layout()
-plt.savefig("figures_gpt/head_corr_heatmap.png", dpi=300, bbox_inches="tight")
+plt.savefig(f"{figure_path}/head_corr_heatmap.png", dpi=300, bbox_inches="tight")
 plt.close()

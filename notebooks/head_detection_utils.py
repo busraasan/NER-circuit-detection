@@ -3,6 +3,12 @@ import sys, os
 sys.path.append(os.path.abspath(".."))  # go up one level to the root
 from utils.utils import *
 
+"""
+This script computes the attention probability (attn weights softmaxed) from the final token 
+(the one predicting the next token)
+to the answer span, for various NER examples.
+"""
+
 model_name = "gpt2-small"
 device ="cuda:0"
 model = HookedTransformer.from_pretrained(
@@ -72,7 +78,7 @@ Answer:"""
 per_sentence_scores = []
 model.eval()
 
-ner_solid_samples = load_json("../../pos_cf_datasets/ner_correct.json")
+ner_solid_samples = load_json("../data/ner_correct.json")
 
 for item in ner_solid_samples:
 

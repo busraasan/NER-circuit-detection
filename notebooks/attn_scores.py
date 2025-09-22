@@ -9,7 +9,7 @@ model = HookedTransformer.from_pretrained(
 model.eval()
 
 # Load data
-with open("../../pos_cf_datasets/ner_correct.json", "r") as f:
+with open("../data/ner_correct.json", "r") as f:
     ner_solid_samples = json.load(f)
 
 L_total, H_total = model.cfg.n_layers, model.cfg.n_heads

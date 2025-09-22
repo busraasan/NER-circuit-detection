@@ -26,53 +26,53 @@ attn_cache = {}
 layer_i, head_i = 10, 7  # 0-indexed
 
 template = """Sentence: Apple announced a new iPhone during its annual product launch event.,
-POS tag: PRODUCT,
+Entity: PRODUCT,
 Answer: iPhone
 
 Sentence: Barack Obama delivered a keynote speech at the conference.,
-POS tag: PERSON,
+Entity: PERSON,
 Answer: Barack Obama
 
 Sentence: Tesla invested over 2 billion dollars in a new gigafactory in Germany.,
-POS tag: MONEY,
+Entity: MONEY,
 Answer: 2 billion dollars
 
 Sentence: The concert will take place at 8 p.m. on Saturday.,
-POS tag: TIME,
+Entity: TIME,
 Answer: 8 p.m. on Saturday
 
 Sentence: The Eiffel Tower is located in Paris.,
-POS tag: LOCATION,
+Entity: LOCATION,
 Answer: Paris
 
 Sentence: The Olympic Games in Tokyo attracted thousands of visitors despite the pandemic.,
-POS tag: EVENT, 
+Entity: EVENT,
 Answer: Olympic Games
 
 Sentence: The recipe calls for 200 grams of sugar and 3 eggs.,
-POS tag: NUMERICAL, 
+Entity: NUMERICAL,
 Answer: 200 grams
 
 Sentence: Google has opened a new research center in Zurich to focus on AI development.,
-POS tag: ORGANIZATION, 
+Entity: ORGANIZATION,
 Answer: Google
 
 Sentence: The American have a long history of culinary excellence.,
-POS tag: NATIONALITY, RELIGIOUS, or POLITICAL GROUP, 
+Entity: NATIONALITY, RELIGIOUS, or POLITICAL GROUP,
 Answer: American
 
 Sentence: The Islam religion has over a billion followers worldwide.,
-POS tag: NATIONALITY, RELIGIOUS, or POLITICAL GROUP, 
+Entity: NATIONALITY, RELIGIOUS, or POLITICAL GROUP,
 Answer: Islam
 
 Sentence: {sentence}
-POS tag: {tag}
+Entity: {tag}
 Answer:"""
 
 per_sentence_scores = []
 model.eval()
 
-ner_solid_samples = load_json("../../pos_cf_datasets/ner_correct.json")
+ner_solid_samples = load_json("../data/ner_correc_alot.json")
 
 model.eval()
 L, H = layer_i, head_i  # 0-based
@@ -127,9 +127,6 @@ for item in ner_solid_samples:
     copy_scores = (o_end_from_j * W_U_seq).sum(dim=-1)      # [seq]
     unrouted_copy = (M_all * W_U_seq).sum(dim=-1)          # <M_j, W_U[token_j]>
 
-    # find span as you already do -> `span` = list of indices or None
-    # ---- compute across-examples correlations ----
-
     # ------- correlation over ALL positions j -------
     # Guard against zero-variance (corr undefined)
     if torch.var(attn_row) > 0 and torch.var(copy_scores) > 0:
@@ -139,7 +136,7 @@ for item in ner_solid_samples:
     else:
         corr_all_sent.append(np.nan)
 
-    # ------- OPTIONAL: correlation only over answer span j -------
+    # ------- correlation only over answer span j (answer) -------
     # Find answer span (try with and without leading space)
     span = None
     cands = [
