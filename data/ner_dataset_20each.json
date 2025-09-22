@@ -1,0 +1,902 @@
+[
+  {
+    "Sentence": "In the wake of the earthquake in California and the devastation of Hurricane Hugo, many companies in disaster - prone areas are pondering the question of preparedness.",
+    "POS tag": "EVENT",
+    "Answer": "Hurricane Hugo"
+  },
+  {
+    "Sentence": "The annual Spring Festival lamb hot pot party has been held by the Beijing Association for four or five years.",
+    "POS tag": "EVENT",
+    "Answer": "Spring Festival"
+  },
+  {
+    "Sentence": "Conservatives saw the savagery of nine eleven and the attacks and prepared for war.",
+    "POS tag": "EVENT",
+    "Answer": "nine eleven"
+  },
+  {
+    "Sentence": "In 1937, following the Marco Polo Bridge Incident, Japan occupied Beiping and launched a full - scale invasion of China.",
+    "POS tag": "EVENT",
+    "Answer": "the Marco Polo Bridge Incident"
+  },
+  {
+    "Sentence": "In the Paiwan village of Pingho, one of the two most important festivals was the Hundred - Pacer Festival, which used to be held once every ten years.",
+    "POS tag": "EVENT",
+    "Answer": "the Hundred - Pacer Festival"
+  },
+  {
+    "Sentence": "Well first and most importantly the decision did not require the President to release the prisoners at Guantanamo.",
+    "POS tag": "EVENT",
+    "Answer": "Guantanamo"
+  },
+  {
+    "Sentence": "Before the Hundred Regiments Offensive in 1940, an inclination to compromise, ah, surrender, was an extremely serious crisis in the frontline situation in China.",
+    "POS tag": "EVENT",
+    "Answer": "the Hundred Regiments Offensive"
+  },
+  {
+    "Sentence": "It was grandly christened -- and welcomed by Pentagon aficionados -- as the Revolution in Military Affairs or, in that acronym - laden world, RMA.",
+    "POS tag": "EVENT",
+    "Answer": "the Revolution in Military Affairs"
+  },
+  {
+    "Sentence": "The Forum to Commemorate the Seventieth Anniversary of the Xi'an Incident was held today in Beijing.",
+    "POS tag": "EVENT",
+    "Answer": "to Commemorate the Seventieth Anniversary of the Xi'an Incident"
+  },
+  {
+    "Sentence": "Mr. Kume made the earnings projection for fiscal 1990, ending next March 31, in an interview with U.S. automotive writers attending the Tokyo Motor Show.",
+    "POS tag": "EVENT",
+    "Answer": "the Tokyo Motor Show"
+  },
+  {
+    "Sentence": "The Hundred Regiments Offensive caused great excitement.",
+    "POS tag": "EVENT",
+    "Answer": "The Hundred Regiments Offensive"
+  },
+  {
+    "Sentence": "Pele led Brazil to three World Cup titles and scored more than 1200 goals.",
+    "POS tag": "EVENT",
+    "Answer": "World Cup"
+  },
+  {
+    "Sentence": "German police say a teenage Lebanese gunman, who hijacked a bus today, was hoping to free a key September 11th suspect.",
+    "POS tag": "EVENT",
+    "Answer": "September 11th"
+  },
+  {
+    "Sentence": "The SBA expects to make about $1 billion in Hurricane Hugo loans.",
+    "POS tag": "EVENT",
+    "Answer": "Hurricane Hugo"
+  },
+  {
+    "Sentence": "It is reported that after it received the scientific achievement award of Heilongjiang's Chinese Medicine Administrative Bureau in 1992, the Liver Healing Capsule also received a top award at the Malaysia International New Technology and New Product Exhibition, and in May of this year, it received the gold medal at the third National Medical and Health Care Products Fair.",
+    "POS tag": "EVENT",
+    "Answer": "National Medical and Health Care Products Fair"
+  },
+  {
+    "Sentence": "Ever since that fearful Black Monday, they've been tirelessly wooing wary individual investors -- trying to convince them that Oct. 19, 1987, was a fluke and that the stock market really is a safe place for average Americans to put their hard - earned dollars.",
+    "POS tag": "EVENT",
+    "Answer": "Black Monday"
+  },
+  {
+    "Sentence": "Because of our involvement in Vietnam and because of what has happened at the Pentagon Papers and the Watergate case a great many of our youth have lost faith in our institutions.",
+    "POS tag": "EVENT",
+    "Answer": "the Watergate case"
+  },
+  {
+    "Sentence": "Now Russia says this was the result of WWII international laws and treaties, with the US also recognizing it at that time.",
+    "POS tag": "EVENT",
+    "Answer": "WWII"
+  },
+  {
+    "Sentence": "Congress sent to Bush a $2.85 billion emergency package to assist in the recovery from last week's California earthquake and from Hurricane Hugo.",
+    "POS tag": "EVENT",
+    "Answer": "Hurricane Hugo"
+  },
+  {
+    "Sentence": "A customs official said the arrests followed a Snake Day at Utrecht University in the Netherlands, an event used by some collectors as an opportunity to obtain rare snakes.",
+    "POS tag": "EVENT",
+    "Answer": "a Snake Day"
+  },
+  {
+    "Sentence": "Indexes can be constructed to serve social goals, such as eliminating the stocks of companies doing business in South Africa.",
+    "POS tag": "LOCATION",
+    "Answer": "South Africa"
+  },
+  {
+    "Sentence": "Fujian Province recently put forth that this year it will vigorously promote Fujian - Taiwan economic and trade cooperation, to further expand the extent of business invitations to Taiwan, to strengthen connections with Taiwan's big enterprises and consortia, to strive for a number of large Taiwanese capital projects to invest in Fujian, and to vigorously develop trade to Taiwan and to develop fishing labor service cooperation with Taiwan.",
+    "POS tag": "LOCATION",
+    "Answer": "Fujian Province"
+  },
+  {
+    "Sentence": "LONDON LATE EURODOLLARS: 8 3/4% to 8 5/8% one month; 8 11/16% to 8 9/16% two months; 8 3/4% to 8 5/8% three months; 8 5/8% to 8 1/2% four months; 8 9/16% to 8 7/16% five months; 8 9/16% to 8 7/16% six months.",
+    "POS tag": "LOCATION",
+    "Answer": "LONDON"
+  },
+  {
+    "Sentence": "A number of consortia, such as Mobil, Exxon and Amoco of the U.S., Holland's Shell, Japan's Yangu, Hong Kong's Changjiang Industry, etc., have successively settled in Zhuhai.",
+    "POS tag": "LOCATION",
+    "Answer": "Zhuhai"
+  },
+  {
+    "Sentence": "He also declined to comment on the name that Coopers would use in England if Deloitte UK won its litigation to keep its name.",
+    "POS tag": "LOCATION",
+    "Answer": "England"
+  },
+  {
+    "Sentence": "-LRB- Taiwan already is a big importer of Fujis from other places, he adds. -RRB-",
+    "POS tag": "LOCATION",
+    "Answer": "Taiwan"
+  },
+  {
+    "Sentence": "And a security source told the independent news agency Voices of Iraq that Three new pick - up trucks, similar to the vehicles of the Iraqi security forces, driven by around 20 gunmen wearing National Guard uniforms, blocked two cars in Al - Sadoon street in downtown Baghdad. \"",
+    "POS tag": "LOCATION",
+    "Answer": "Baghdad"
+  },
+  {
+    "Sentence": "During a visit to China in October of this year, Sir Britan, vice chairman of the EU Committee also conducted highly productive talks with Yi Wu, minister of China's Ministry of Foreign Trade and Economy, on the issue of China's entering the WTO.",
+    "POS tag": "LOCATION",
+    "Answer": "China"
+  },
+  {
+    "Sentence": "Missouri is a compassionate state, and I think in a very special way, they have demonstrated the compassion which they have.",
+    "POS tag": "LOCATION",
+    "Answer": "Missouri"
+  },
+  {
+    "Sentence": "God's will for me was that I was in an accident in Riyadh four months ago.",
+    "POS tag": "LOCATION",
+    "Answer": "Riyadh"
+  },
+  {
+    "Sentence": "Eddie Jordan Jr. is the New Orleans district attorney.",
+    "POS tag": "LOCATION",
+    "Answer": "New Orleans"
+  },
+  {
+    "Sentence": "The GNP created by village - and - town enterprises accounted for approximately 1/3 of Fujian Province GNP.",
+    "POS tag": "LOCATION",
+    "Answer": "Fujian Province '"
+  },
+  {
+    "Sentence": "Rep. Robert K. Dornan -LRB- R., Calif. -RRB- Washington",
+    "POS tag": "LOCATION",
+    "Answer": "Washington"
+  },
+  {
+    "Sentence": "Unlike other writers who either battled the fascists during the Civil War, or left Spain when Franco triumphed, Mr. Cela fought briefly on the general's side, no doubt earning with his war wound some forbearance when he went on to depict a country with a high population of vagabonds, murderers and rural idiots trudging aimlessly through a dried - out land.",
+    "POS tag": "LOCATION",
+    "Answer": "Spain"
+  },
+  {
+    "Sentence": "Yasser Arafat -LRB- Yasser Arafat -RRB- was born in August 1929 in Jerusalem.",
+    "POS tag": "LOCATION",
+    "Answer": "Jerusalem"
+  },
+  {
+    "Sentence": "As he stands on a hill at the beginning of a six - day motor expedition from Oxfordshire to Cornwall, where a former housekeeper resides, perhaps the victim of an unhappy 20 - year marriage, perhaps -LRB- he hopes with more fervor than he will ever acknowledge -RRB- not disinclined to return to domestic service, Stevens surveys the view and thereby provides a self - portrait, a credo and the author's metaphor for the aesthetic of the novel we 're reading:",
+    "POS tag": "LOCATION",
+    "Answer": "Cornwall"
+  },
+  {
+    "Sentence": "FOREIGN PRIME RATES: Canada 13.50%; Germany 9%; Japan 4.875%; Switzerland 8.50%; Britain 15%.",
+    "POS tag": "LOCATION",
+    "Answer": "Germany"
+  },
+  {
+    "Sentence": "What's more, there was a growing environmental consciousness that led the residents of central and southern Taiwan to start opposing industrial projects.",
+    "POS tag": "LOCATION",
+    "Answer": "Taiwan"
+  },
+  {
+    "Sentence": "The consumer has to throw out the idea that the auction house is a disinterested middleman, says New York art dealer David Tunick.",
+    "POS tag": "LOCATION",
+    "Answer": "New York"
+  },
+  {
+    "Sentence": "The MND argues that since the military is being streamlined, in order to concentrate defense forces in Taiwan, Penghu, Kinmen, and Matsu, the defense of the Pratas and Spratley islands - which are in the South China Sea - and the protection of coastal fishing vessels and coastal security should be left to the Coast Guard.",
+    "POS tag": "LOCATION",
+    "Answer": "Pratas"
+  },
+  {
+    "Sentence": "Earlier this year, President Bush made a final take - it - or - leave it offer on the minimum wage: an increase to $4.25 an hour over three years, and only if accompanied by a lower wage for the first six months of a job.",
+    "POS tag": "MONEY",
+    "Answer": "4.25"
+  },
+  {
+    "Sentence": "The European Union is offering a 3.9 billion - dollar financial aid program to help the region, which has long been devastated by civil conflict, economic collapse and political isolation.",
+    "POS tag": "MONEY",
+    "Answer": "3.9 billion - dollar"
+  },
+  {
+    "Sentence": "In the dark days following Taiwan's September 1999 earthquake, the International Federation of Red Cross and Red Crescent Societies donated US$27,890,000 to Taiwan, and these funds proved a tremendous help in our reconstruction effort.",
+    "POS tag": "MONEY",
+    "Answer": "US$27,890,000"
+  },
+  {
+    "Sentence": "Even a pack of 20 Western cigarettes can fetch 20 rubles or more.",
+    "POS tag": "MONEY",
+    "Answer": "20 rubles"
+  },
+  {
+    "Sentence": "His latest coup: September's masterminding of the five billion Swiss - franc -LRB- $3.07 billion -RRB- merger between Adia S.A., the world's second - largest temporary employment agency, and Inspectorate International S.A., a Rey - controlled product - inspection company.",
+    "POS tag": "MONEY",
+    "Answer": "$3.07 billion"
+  },
+  {
+    "Sentence": "In 1992, the Motorola Company invested 120 million US dollars in Tianjin, and investment has already increased to 1.2 billion US dollars in 1995.",
+    "POS tag": "MONEY",
+    "Answer": "120 million US dollars"
+  },
+  {
+    "Sentence": "Per capita income, a widely used measure of a nation's economic health, hit a record in 1988, rising 1.7% after inflation adjustment to $13,120.",
+    "POS tag": "MONEY",
+    "Answer": "$13,120"
+  },
+  {
+    "Sentence": "The last time presidential candiTIMEs had that luxury was in 1960 -- Richard Nixon and John F. Kennedy facing off over a $300 million surplus, not adjusted for inflation.",
+    "POS tag": "MONEY",
+    "Answer": "$300 million"
+  },
+  {
+    "Sentence": "First Unilever, the Anglo - Dutch packaged - goods giant, spent $2 billion to acquire brands such as Faberge and Elizabeth Arden.",
+    "POS tag": "MONEY",
+    "Answer": "$2 billion"
+  },
+  {
+    "Sentence": "Miss Chen of Pingtung worries that her father, soon to retire at age 60, doesn't think much about money, and his expected retirement plus savings will be less than NT$4 million -LRB- about US$120,000 -RRB-.",
+    "POS tag": "MONEY",
+    "Answer": "120,000"
+  },
+  {
+    "Sentence": "The accounts, which billed about $7 million last year, according to Leading National Advertisers, were previously handled at Bozell, New York.",
+    "POS tag": "MONEY",
+    "Answer": "about $7 million"
+  },
+  {
+    "Sentence": "The House, meanwhile, approved $2.85 billion to aid in the recovery from the temblor and from Hurricane Hugo as state legislators moved toward a temporary sales - tax increase.",
+    "POS tag": "MONEY",
+    "Answer": "$2.85 billion"
+  },
+  {
+    "Sentence": "Transamerica expects an after - tax charge of less than $3 million against fourth - quarter net; Hartford Insurance Group, a unit of ITT Corp., expects a $15 million or 10 cents after - tax charge; and Fireman's Fund Corp. expects a charge of no more than $50 million before taxes and after using its reinsurance.",
+    "POS tag": "MONEY",
+    "Answer": "10 cents"
+  },
+  {
+    "Sentence": "Noting that Sweden wound up wasting state subsidies of about 35 billion Swedish kronor -LRB- $5.47 billion -RRB- during the 1970s in a vain attempt to salvage its shipbuilding industry, one analyst suggested that Mr. Suominen may have decided to cut Finland's losses once and for all.",
+    "POS tag": "MONEY",
+    "Answer": "about 35 billion Swedish kronor"
+  },
+  {
+    "Sentence": "General Electronic using a dollar after three brokerage companies cut their profit expectation on the company.",
+    "POS tag": "MONEY",
+    "Answer": "a dollar"
+  },
+  {
+    "Sentence": "Last year, the size of the China Construction Bank and the Industrial and Commerce Bank's personal housing mortgages and loans increased to 10 billion yuan.",
+    "POS tag": "MONEY",
+    "Answer": "10 billion yuan"
+  },
+  {
+    "Sentence": "During the first ten months of this year, state - owned enterprises in Xiamen exported 1.637 billion US dollars, increasing by 23.6%, showing relatively strong growth stamina.",
+    "POS tag": "MONEY",
+    "Answer": "1.637 billion US dollars"
+  },
+  {
+    "Sentence": "With the $3 million received from investors, he took frequent junkets with friends to exotic locales and leased an expensive BMW for his girlfriend, whom he met at the shop where he got his custom - tailored suits.",
+    "POS tag": "MONEY",
+    "Answer": "$3 million"
+  },
+  {
+    "Sentence": "Silver, now trading around $5 an ounce, surged to an all - time peak of $50 an ounce in January 1980 from around $9 in mid-1979.",
+    "POS tag": "MONEY",
+    "Answer": "around $5"
+  },
+  {
+    "Sentence": "Legislator Yang Chi - hsiung had uncovered two funds, valued at NT$140 million and $470 million, under the names of Soong Chen - yuan and James Soong's sister - in - law Chen Pi - yun.",
+    "POS tag": "MONEY",
+    "Answer": "$470 million"
+  },
+  {
+    "Sentence": "In the enclave's restaurants, such classic Macanese dishes as curry and Portuguese chicken are served up with a wide variety of seasonings, blending the sweet flavors of Cantonese dishes with the rich, tangy taste of old-style Indian fare.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Indian"
+  },
+  {
+    "Sentence": "The same source did not mention any details about the British citizen but pointed out that he was wounded in the neck, his condition was stable and his life was not in danger.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "British"
+  },
+  {
+    "Sentence": "For this, the Chinese government views with extreme importance and actively participates in international population activities, and sincerely hopes that the international community will adopt a stand of realistic resolution of population and development problems, seeking similarities while accommodating differences, co-operating closely to strive hard together towards a stable world population to create a beautiful future !",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Chinese"
+  },
+  {
+    "Sentence": "Like the Roman Catholic Church, the Polish peasant is a pillar of the nation.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Polish"
+  },
+  {
+    "Sentence": "Thus it was that the United Asian Association -LRB- UAA -RRB- and the Hua - Hsia Association - a Taiwanese organization - organized the Celebrating Oriental New Year event.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Taiwanese"
+  },
+  {
+    "Sentence": "If not for the fearless sacrifice of our democratic forebears, if not for the unswerving faith of the tens of millions of Taiwanese people in freedom and democracy, we could not possibly be standing on our beloved land today and celebrating a glorious occasion that belongs to all the people.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Taiwanese"
+  },
+  {
+    "Sentence": "She also reiterated preconditions to any change, including the need for Palestinians to work towards putting their house in order. \"",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Palestinians"
+  },
+  {
+    "Sentence": "Andrew, can you tell us about the ties between the Hezbollah and the Palestinians, particularly in the recent uprising.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Palestinians"
+  },
+  {
+    "Sentence": "He mentioned, based on statistics of the Palestinian Ministry of Agriculture and the Environment, that the Israelis have pulled out two million trees in the last six years, half a million of which were olive trees. \"",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Israelis"
+  },
+  {
+    "Sentence": "Prime Minister Barak's scheduled meeting with President Mubarak is being seen by some here as a positive indication that a deal may be close between Israeli and Palestinian negotiating teams in Washington.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Palestinian"
+  },
+  {
+    "Sentence": "Such Chinese wisdom will remain a universal value.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Chinese"
+  },
+  {
+    "Sentence": "It's often wrong, but it's better than consulting an Indian rain dancer.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Indian"
+  },
+  {
+    "Sentence": "In England, this would mean that the British Deloitte would lose revenue for its audit of GM's Vauxhill unit.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "British"
+  },
+  {
+    "Sentence": "75% of Iraqi oil to foreign companies and 25% to Iraqis.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Iraqis"
+  },
+  {
+    "Sentence": "There's a story moving on the wires that the Afghan court has just dismissed the charges against this gentleman who had converted to Christianity.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Christianity"
+  },
+  {
+    "Sentence": "And that tells you then the problems that both the national and state Republicans have.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Republicans"
+  },
+  {
+    "Sentence": "Givaudan Far East Ltd., a Swiss concern that sells chemicals to shampoo and soap factories in China, typifies the problems.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Swiss"
+  },
+  {
+    "Sentence": "Chinese people's influence on the US politics and society is almost zero.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Chinese"
+  },
+  {
+    "Sentence": "Russian athletes were uncomfortably mute when their new lyric-less anthem was played.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Russian"
+  },
+  {
+    "Sentence": "%uh, because there are a lot%um of Asian restaurants that you can walk to within a couple of blocks",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Asian"
+  },
+  {
+    "Sentence": "U.S. officials expressed skepticism over an Israeli effort to show the PLO continues to practice terrorism.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "PLO"
+  },
+  {
+    "Sentence": "The expected Canadian move has been welcomed by the Bush administration even though Canada has opposed such U.S. actions as the trade embargo against Cuba, the invasion of Grenada and the military support for Nicaragua's Contra guerrillas.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "Contra"
+  },
+  {
+    "Sentence": "Today, said Mr. Sisulu, the ANC has captured the center stage of political life in South Africa.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "ANC"
+  },
+  {
+    "Sentence": "One such company is Bankers Trust Co.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "Bankers Trust Co"
+  },
+  {
+    "Sentence": "First Unilever, the Anglo - Dutch packaged - goods giant, spent $2 billion to acquire brands such as Faberge and Elizabeth Arden.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "Elizabeth Arden"
+  },
+  {
+    "Sentence": "Ginnie Mae 13% securities were down about 1/4 at 109 30/32.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "Ginnie Mae"
+  },
+  {
+    "Sentence": "But is the White House convinced that in order to secure the base of the Republican Party for the President it doesn't hurt to go after the media a little bit?",
+    "POS tag": "ORGANIZATION",
+    "Answer": "the White House"
+  },
+  {
+    "Sentence": "The claims, which were filed with the State Board of Control but will probably end up in court, are the first arising out of the collapse of the so - called Cypress structure viaduct.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "the State Board of Control"
+  },
+  {
+    "Sentence": "Senator Coats's proposal would let the proposed spending cuts take place automatically unless Congress acts.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "Congress"
+  },
+  {
+    "Sentence": "The baseball commissioner said the third game of the World Series between the Giants and the Athletics would be played Tuesday in Candlestick Park.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "Giants"
+  },
+  {
+    "Sentence": "While renewing military aid had been considered out of the question, rejected by Congress and de-emphasized by the Bush administration, Mr. Ortega's statement provides Contra supporters with the opportunity to press the administration on the issue.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "Congress"
+  },
+  {
+    "Sentence": "No, but he's endangered all the same: His new sitcom on ABC needs a following to stay on the air.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "ABC"
+  },
+  {
+    "Sentence": "Xinhua News Agency, Shanghai, August 31st, by reporters Zhixing Wu and Qi Wang",
+    "POS tag": "ORGANIZATION",
+    "Answer": "Xinhua News Agency"
+  },
+  {
+    "Sentence": "With companies such as Honda Motor Co., Toyota Motor Corp. and Nissan Motor Co. running so - called transplant auto operations, Japanese auto production in the U.S. will reach one million vehicles this year.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "Honda Motor Co."
+  },
+  {
+    "Sentence": "Last month, for example, Mips agreed to supply its computers to Nixdorf Computer AG of West Germany and France's Groupe Bull.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "Mips"
+  },
+  {
+    "Sentence": "Comsat Video is headed by Robert Wussler, who resigned his No. 2 executive post with Turner Broadcasting System Inc. just two weeks ago to take the Comsat position.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "Comsat Video"
+  },
+  {
+    "Sentence": "but if VDOT ever checked the serial numbers, I don't know what would happen.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "VDOT"
+  },
+  {
+    "Sentence": "New Canaan Investments Inc. said it closed the acquisition of Carr - Lowrey Glass Co. from Newell Co., a Freeport, Ill., maker of do - it - yourself home products.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "Newell Co."
+  },
+  {
+    "Sentence": "The auto - dealer strip in this booming suburb runs nearly five miles along Cobb Parkway, stretching from the Perimeter highway that circles Atlanta to the Big Chicken, a pullet - roofed fast - food restaurant and local landmark.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "the Big Chicken"
+  },
+  {
+    "Sentence": "This year the ROC application to the UN particularly emphasized that the UN could serve as a forum for the peaceful resolution of the cross-strait problem.",
+    "POS tag": "ORGANIZATION",
+    "Answer": "UN"
+  },
+  {
+    "Sentence": "* Source: mitbbs.com BBS, http://mitbbs.com -LSB- FROM: 75.80. -RSB-",
+    "POS tag": "NUMERICAL",
+    "Answer": "75.80."
+  },
+  {
+    "Sentence": "Volume in the second section was estimated at 30 million shares, up from 28 million Thursday.",
+    "POS tag": "NUMERICAL",
+    "Answer": "30 million"
+  },
+  {
+    "Sentence": "Typical rates in the secondary market: 8.53% one month; 8.45% three months; 8.27% six months.",
+    "POS tag": "NUMERICAL",
+    "Answer": "8.27%"
+  },
+  {
+    "Sentence": "Another 250 Libyans were already in Italy to stage a day of mourning for victims of Italy's colonial rule between 1911 and 1943, when Tripoli says Rome kidnapped 5,000 Libyans and deported them as forced labor.",
+    "POS tag": "NUMERICAL",
+    "Answer": "250"
+  },
+  {
+    "Sentence": "The resolution stipulates that the Preparatory Committee of the Hong Kong Special Administrative Region, in accordance with the resolution of the National People's Congress regarding establishment methods of the Hong Kong Special Administrative Region's first - term government and its legislative assembly, will be responsible for matters related to preparing the Special Administrative Region, and stipulates methods for the establishment of its first legislative assembly, and organizes and establishes the first legislative assembly of the Hong Kong Special Administrative Region.",
+    "POS tag": "NUMERICAL",
+    "Answer": "first"
+  },
+  {
+    "Sentence": "Zheng Bing's idea was that each member household could hold a maximum of three shares.",
+    "POS tag": "NUMERICAL",
+    "Answer": "three"
+  },
+  {
+    "Sentence": "Alexander Lu, a professor of political science at National Taiwan University, agrees with the no - major - innovations approach of the three candiTIMEs.",
+    "POS tag": "NUMERICAL",
+    "Answer": "three"
+  },
+  {
+    "Sentence": "Today, the former Yugoslav President made his first public appearance since losing power.",
+    "POS tag": "NUMERICAL",
+    "Answer": "first"
+  },
+  {
+    "Sentence": "Third, granted, the government in Stockholm has every incentive to spin this in a good light,",
+    "POS tag": "NUMERICAL",
+    "Answer": "Third"
+  },
+  {
+    "Sentence": "From January to November of this year, a total number of 100,000 Chang'an compact cars have been produced, increasing by 54.9% compared to the same period last year.",
+    "POS tag": "NUMERICAL",
+    "Answer": "100,000"
+  },
+  {
+    "Sentence": "While the company has always been family - run, Mr. Brawer isn't the first person to marry into the family and subsequently head Maidenform.",
+    "POS tag": "NUMERICAL",
+    "Answer": "first"
+  },
+  {
+    "Sentence": "CERTIFICATES OF DEPOSIT: 8.05% one month; 8.02% two months; 8% three months; 7.98% six months; 7.95% one year.",
+    "POS tag": "NUMERICAL",
+    "Answer": "8.05%"
+  },
+  {
+    "Sentence": "Guo Kai's Economics Notes: Six Cachets !",
+    "POS tag": "NUMERICAL",
+    "Answer": "Six"
+  },
+  {
+    "Sentence": "When Lavuras mentioned at a Symposium on Amphibian and Reptile Ecology and Conservation held by Taipei Zoo last year that the Paiwan used their nose - flutes to imitate the voice of the hundred - pace viper, all the biologists present said they had never heard a hundred - pacer make a sound.",
+    "POS tag": "NUMERICAL",
+    "Answer": "hundred"
+  },
+  {
+    "Sentence": "Rolls - Royce Motor Cars Inc. said it expects its U.S. sales to remain steady at about 1,200 cars in 1990.",
+    "POS tag": "NUMERICAL",
+    "Answer": "about 1,200"
+  },
+  {
+    "Sentence": "The offering, with an expected average life of 3.2 years, will float monthly at 20 basis points above the rate on an index of 30 - day double - A - rated commercial paper, which now yields about 8.50%.",
+    "POS tag": "NUMERICAL",
+    "Answer": "about 8.50%"
+  },
+  {
+    "Sentence": "They believe that the discovery of a large quantity of valuable dinosaur eggs fossils in the Xixia basin is an international rarity, and egg fossils and bone fossils existing in one place is even rarer.",
+    "POS tag": "NUMERICAL",
+    "Answer": "one"
+  },
+  {
+    "Sentence": "In 1988, 31.6% of blacks lived in poverty, compared with 10.1% for whites and 26.8% for Hispanics.",
+    "POS tag": "NUMERICAL",
+    "Answer": "10.1%"
+  },
+  {
+    "Sentence": "Outside of Taiyuan and Shijiazhuang, the Japanese military deployed the 4th, 8th, and 93rd mixed brigades and regiments, which were scattered among 50 strongholds along the railway line.",
+    "POS tag": "NUMERICAL",
+    "Answer": "93rd"
+  },
+  {
+    "Sentence": "you know as well as I do there's two sides to every story.",
+    "POS tag": "NUMERICAL",
+    "Answer": "two"
+  },
+  {
+    "Sentence": "FBI director, Louis Freeh visited Yemen today to view the investigation first hand.",
+    "POS tag": "PERSON",
+    "Answer": "Louis Freeh"
+  },
+  {
+    "Sentence": "Mr. Milgrim succeeds David Berman, who resigned last month.",
+    "POS tag": "PERSON",
+    "Answer": "Milgrim"
+  },
+  {
+    "Sentence": "He co-founded the company with Grant Tinker and Mary Tyler Moore in 1969.",
+    "POS tag": "PERSON",
+    "Answer": "Mary Tyler Moore"
+  },
+  {
+    "Sentence": "Peng Li said that China and Kyrgyzstan should strengthen co-operative relations in such fields as economy, trade, science, technology, culture, etc.",
+    "POS tag": "PERSON",
+    "Answer": "Peng Li"
+  },
+  {
+    "Sentence": "If you buy TSMC at 150 hoping it will go up to 220 within a couple of months because that's what you need to make your final house payment, then it only goes up to 200, you 'll feel dissatisfied, says Liu.",
+    "POS tag": "PERSON",
+    "Answer": "Liu"
+  },
+  {
+    "Sentence": "Recently, wife of Wang Guanghua, Deputy - Secretary of the Community Party Branch, has written more than once on the community notice board such things as Wang Peirong is on a no - return road, issuing open death threat to Wang Peirong.",
+    "POS tag": "PERSON",
+    "Answer": "Wang Peirong"
+  },
+  {
+    "Sentence": "So what do the Clintons, Ford and Arnold Schwarzenegger and the cast of Friends have in common?",
+    "POS tag": "PERSON",
+    "Answer": "Arnold Schwarzenegger"
+  },
+  {
+    "Sentence": "Tsai acknowledges that because of the immediacy of the medium his online work is to some degree influenced, in terms of form, content and progress, by the response of the readers - even if a lot of that influence is unconscious. \"",
+    "POS tag": "PERSON",
+    "Answer": "Tsai"
+  },
+  {
+    "Sentence": "The most amazing thing is that Jasir claims that the adversaries of al - Qusaybi have thwarted his conservative project for women's work, and today al - Qusaybi states that businessmen are the cause of the project's delay !!",
+    "POS tag": "PERSON",
+    "Answer": "Jasir"
+  },
+  {
+    "Sentence": "IF CONTINENTAL Airlines has its way, couples like Marlo Thomas and Phil Donahue may find it a hassle to qualify for some new discounts.",
+    "POS tag": "PERSON",
+    "Answer": "Phil Donahue"
+  },
+  {
+    "Sentence": "Abdul Rahman says he became a Christian fifteen years ago and was living in Germany before going back to Afghanistan in two thousand two in part to try and get custody of his two daughters.",
+    "POS tag": "PERSON",
+    "Answer": "Abdul Rahman"
+  },
+  {
+    "Sentence": "Sen. Cohen said the relationship has reverted to its pre-Reagan character.",
+    "POS tag": "PERSON",
+    "Answer": "pre-Reagan"
+  },
+  {
+    "Sentence": "Although the group's work was entirely confidential, leaks published by the New York Times newspaper said that the group agreed on the need for a regional conference including Iraq's neighboring countries to discuss means of putting an end to the violence in the country. As well as to urge Bush to abandon his reservations regarding talks with Iran and Syria, who neighbor this country.",
+    "POS tag": "PERSON",
+    "Answer": "Bush"
+  },
+  {
+    "Sentence": "A senior Israeli official has concluded talks in Washington with President Clinton.",
+    "POS tag": "PERSON",
+    "Answer": "Clinton"
+  },
+  {
+    "Sentence": "So, too, of course, could Saddam's brutal 1980s repression of the Shia, underlying the sectarian animus and resolve for vengeance and dominance by the U.S. - installed Shia regime after 2003 that shaped Rumsfeld's, and America's, historic failure in Iraq.",
+    "POS tag": "PERSON",
+    "Answer": "Rumsfeld"
+  },
+  {
+    "Sentence": "The only way to reduce the costs is to say we don't want to pay the bill, said Rep. Neal Smith -LRB- D., Iowa -RRB-, who taunted President Bush's party to back up his campaign promise of supporting the claims of $20,000 per individual.",
+    "POS tag": "PERSON",
+    "Answer": "Bush"
+  },
+  {
+    "Sentence": "Mr. Annan met with Israeli Prime Minister Ehud Barak and Palestinian leader Yasser Arafat, then told reporters the region has suffered enough.",
+    "POS tag": "PERSON",
+    "Answer": "Annan"
+  },
+  {
+    "Sentence": "When Isabella -LRB- Ellen Lauren -RRB- confronts her brother Claudio -LRB- Matt Loney -RRB- in his cell, explaining the price she has been asked to secure his freedom; when Isabella and the disguised Duke -LRB- Philip Kerr -RRB- conspire to trick Angelo; and when Mariana -LRB- Annalee Jefferies -RRB-, a woman wronged by Angelo, confronts him with his past misdeeds, the performers bring the dramatic high points to life with intense energy and intelligence.",
+    "POS tag": "PERSON",
+    "Answer": "Annalee Jefferies"
+  },
+  {
+    "Sentence": "At Wells Rich, Ms. Heller will concentrate on accounts that include Philip Morris's Benson & Hedges cigarette brand, which relies on print ads, Ms. Heller's specialty.",
+    "POS tag": "PERSON",
+    "Answer": "Heller"
+  },
+  {
+    "Sentence": "I want to add one more truck, Mr. Huber says.",
+    "POS tag": "PERSON",
+    "Answer": "Huber"
+  },
+  {
+    "Sentence": "Another A Warthog was hit here today.",
+    "POS tag": "PRODUCT",
+    "Answer": "Another A Warthog"
+  },
+  {
+    "Sentence": "Russian Navy officials have halted attempts to recover bodies from the sunken nuclear submarine, the Kursk.",
+    "POS tag": "PRODUCT",
+    "Answer": "Kursk"
+  },
+  {
+    "Sentence": "After the confusion surrounding the change of the Coke formula in 1985, Coca - Cola was reluctant to clutter the Classic name with a brand extension.",
+    "POS tag": "PRODUCT",
+    "Answer": "Classic"
+  },
+  {
+    "Sentence": "The state of Alaska recently bought the Veritrac system, he says, to monitor the Exxon cleanup effort.",
+    "POS tag": "PRODUCT",
+    "Answer": "Veritrac"
+  },
+  {
+    "Sentence": "In Camp Side Holland prosecutors urged the court to convict two Libyans of murdering 270 people in the Pan Am Flight 103 bombing back in 1988.",
+    "POS tag": "PRODUCT",
+    "Answer": "Pan Am Flight 103"
+  },
+  {
+    "Sentence": "Four tubular steel Bedfellows, each roughly in the shape of a W, are attached to the bottom of the box spring in a recessed position....",
+    "POS tag": "PRODUCT",
+    "Answer": "Bedfellows"
+  },
+  {
+    "Sentence": "This fall, Ford introduced only one new product: A restyled version of its hulking Lincoln Town Car luxury model.",
+    "POS tag": "PRODUCT",
+    "Answer": "Town Car"
+  },
+  {
+    "Sentence": "Defense Secretary Dick Cheney and most senators contend that the Navy's F - 14 is too expensive in an era of shrinking Pentagon budgets.",
+    "POS tag": "PRODUCT",
+    "Answer": "F - 14"
+  },
+  {
+    "Sentence": "This gave me joy more than their liking the American Power Point presentation.",
+    "POS tag": "PRODUCT",
+    "Answer": "Power Point"
+  },
+  {
+    "Sentence": "Oil of Olay brought with it the baggage of being used basically by older women who had already aged, says David Williams, a consultant with New England Consulting Group.",
+    "POS tag": "PRODUCT",
+    "Answer": "Oil of Olay"
+  },
+  {
+    "Sentence": "The space shuttle Atlantis blasted into orbit from Cape Canaveral, Fla., and its crew of five astronauts launched the nuclear - powered Galileo space probe on a flight to the planet Jupiter.",
+    "POS tag": "PRODUCT",
+    "Answer": "Atlantis"
+  },
+  {
+    "Sentence": "It's significant the degradation of the Iraqi air defenses has allowed A - s, Predators, U - s, other assets to hover and loiter and provide the overhead protection to these tasks.",
+    "POS tag": "PRODUCT",
+    "Answer": "Predators"
+  },
+  {
+    "Sentence": "There was concern it could lead to a repeat of the Columbia disaster during re-entry.",
+    "POS tag": "PRODUCT",
+    "Answer": "Columbia"
+  },
+  {
+    "Sentence": "He still had Cola Cao Juan Juan Xin for breakfast and left after finishing eating,",
+    "POS tag": "PRODUCT",
+    "Answer": "Cola Cao Juan Juan Xin"
+  },
+  {
+    "Sentence": "The gaping, blackened hole in the side of the USS Cole is all the evidence the Navy's top officer needs to declare this a terrorist attack.",
+    "POS tag": "PRODUCT",
+    "Answer": "the USS Cole"
+  },
+  {
+    "Sentence": "It's the famous German wartime coding machine named Enigma '.",
+    "POS tag": "PRODUCT",
+    "Answer": "Enigma"
+  },
+  {
+    "Sentence": "Seagram will run two interactive ads in December magazines promoting its Chivas Regal and Crown Royal brands.",
+    "POS tag": "PRODUCT",
+    "Answer": "Crown Royal"
+  },
+  {
+    "Sentence": "I swear, some groups of young people set up teams to skate on the sidewalk and street and go between cars on what they call skateboards.",
+    "POS tag": "PRODUCT",
+    "Answer": "skateboards"
+  },
+  {
+    "Sentence": "As we watched this picture of the Air Force One getting into this airport I want to bring in our military analyst General Dan Crisman to go over what is happening in Baghdad.",
+    "POS tag": "PRODUCT",
+    "Answer": "the Air Force One"
+  },
+  {
+    "Sentence": "Heidelberg's first ads for the brand, which Sibra says will compete with imported light beer leader Amstel Light, feature the line The best tasting light beer you've ever seen.",
+    "POS tag": "PRODUCT",
+    "Answer": "Amstel Light"
+  },
+  {
+    "Sentence": "DeKlerk, president of South Africa, and Mandela, vice-chairman of the African National Assembly, after holding a meeting lasting 11 hours on the 12th in Capetown, issued a joint statement declaring that this problem has been resolved and both sides have achieved agreement on most views regarding this problem and have signed an agreement.",
+    "POS tag": "TIME",
+    "Answer": "the 12th"
+  },
+  {
+    "Sentence": "To improve the competitiveness on the international market of such new Chinese medicine as Tang Maikang that are geared to the 21st century, Zhonghui Pharmaceutical Factory of China's Chinese Medicine Research Institute invested 200 million yuan and to build a production base with an annual production capacity of 5 billion yuan in Chengdu, Sichuan.",
+    "POS tag": "TIME",
+    "Answer": "the 21st century"
+  },
+  {
+    "Sentence": "On Tuesday afternoon, Kemper told Bear, Stearns & Co., General Electric Co.'s Kidder, Peabody & Co. unit, Morgan Stanley and Oppenheimer & Co. that it will no longer do business with them because of their commitment to index arbitrage, officials inside and outside these firms confirmed.",
+    "POS tag": "TIME",
+    "Answer": "afternoon"
+  },
+  {
+    "Sentence": "Oil imports to Japan rose 12% in September from year - earlier levels, according to statistics released by the government's Ministry of International Trade and Industry.",
+    "POS tag": "TIME",
+    "Answer": "September"
+  },
+  {
+    "Sentence": "Around 1,000 of Macau's civil servants have studied in Taiwan, and every year some 30,000 people travel from Macau to Taiwan for business or work, along with more than 400 students.",
+    "POS tag": "TIME",
+    "Answer": "every year"
+  },
+  {
+    "Sentence": "It is offered by the flagship banks of New York's Manufacturers Hanover Corp. in the one - year maturity only.",
+    "POS tag": "TIME",
+    "Answer": "one - year"
+  },
+  {
+    "Sentence": "Contractors such as Parker Drilling Co. are raising cash again through stock offerings, and for the first time in years, two oil - service companies recently went public.",
+    "POS tag": "TIME",
+    "Answer": "years"
+  },
+  {
+    "Sentence": "Through the first nine months of the year, Kidder ranks a distant 10th among underwriters of U.S. stocks and bonds, with a 2.8% market share, up slightly from 2.5% in the year - earlier period, according to Securities Data Co.",
+    "POS tag": "TIME",
+    "Answer": "year - earlier"
+  },
+  {
+    "Sentence": "Four other countries in Europe have approved Proleukin in recent months.",
+    "POS tag": "TIME",
+    "Answer": "recent months"
+  },
+  {
+    "Sentence": "The results are almost identical to Shapiro's September 1988 numbers.",
+    "POS tag": "TIME",
+    "Answer": "September 1988"
+  },
+  {
+    "Sentence": "Some 46% give foreign cars higher quality ratings, down from 50% two years ago.",
+    "POS tag": "TIME",
+    "Answer": "two years ago"
+  },
+  {
+    "Sentence": "Dissident playwright Vaclav Havel reportedly escaped the crackdown, the fourth against activists in recent days.",
+    "POS tag": "TIME",
+    "Answer": "recent days"
+  },
+  {
+    "Sentence": "And when Mr. Engelken's sister, Martha, who was born two days before the home run, reached her 25th birthday, Mr. Engelken wrote his sports hero to tell him of the coincidence of events.",
+    "POS tag": "TIME",
+    "Answer": "two days"
+  },
+  {
+    "Sentence": "Personal income and spending are both expected to rise, and sales of durable goods should climb slightly for the month, as well.",
+    "POS tag": "TIME",
+    "Answer": "the month"
+  },
+  {
+    "Sentence": "The first collision of this comet with Jupiter will occur at 3:30 AM, in the wee hours of July 17th, Beijing time, and the serial number of the colliding nucleus is No. 21.",
+    "POS tag": "TIME",
+    "Answer": "the wee hours of July 17th"
+  },
+  {
+    "Sentence": "But by the third quarter of 1988, Scorpios had a high satisfaction rating in internal Ford studies, a spokesman said.",
+    "POS tag": "TIME",
+    "Answer": "the third quarter of 1988"
+  },
+  {
+    "Sentence": "After ten years of bloody battles between the Nationalists and the Communists, and among the warlords like Jiang, Feng, Yan and Gui, China's vital organs were diseased, and it was like adding frost on top of snow.",
+    "POS tag": "TIME",
+    "Answer": "ten years"
+  },
+  {
+    "Sentence": "In February of 1983, the Central Committee of the CCP and the State Council decided to put Chongqing in the first group of experimental cities of economic structural reform and cities implementing a separate classification planning system, to grant provincial - level economic management authority, and to open it up as a foreign trade port.",
+    "POS tag": "TIME",
+    "Answer": "February of 1983"
+  },
+  {
+    "Sentence": "West Germany's 7% bond due October 1999 was at 99.95 late yesterday, off 0.10 point from Monday, to yield 7.01%.",
+    "POS tag": "TIME",
+    "Answer": "Monday"
+  },
+  {
+    "Sentence": "Last month, program trading accounted for a record 13.8% of average daily Big Board volume.",
+    "POS tag": "TIME",
+    "Answer": "daily"
+  }
+]

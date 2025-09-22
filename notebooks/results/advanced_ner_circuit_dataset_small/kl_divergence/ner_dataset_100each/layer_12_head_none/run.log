@@ -1,0 +1,16 @@
+/home/basan/fmvalid/lib/python3.11/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Loaded pretrained model gpt2-small into HookedTransformer
+/home/basan/scratch/subtasks_pos/subtasks_of_language/notebooks/run_advanced_pos_circuit_ner.py:178: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  ans_tokens = torch.stack([torch.tensor((ans_clean))]).to(device)
+Working...                                            0% -:--:--
+Traceback (most recent call last):
+  File "/home/basan/scratch/subtasks_pos/subtasks_of_language/notebooks/run_advanced_pos_circuit_ner.py", line 190, in <module>
+    output+=path_patching(model, receiver_nodes, source_toks, corr_toks, ans_tokens, component, position, freeze_mlps, indirect_patch, metric=metric, is_multitoken=allow_multitoken, device=device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/basan/scratch/subtasks_pos/subtasks_of_language/src/advanced_path_patching.py", line 491, in path_patching
+    model.add_hook(hook_name, cache_fn)
+  File "/home/basan/fmvalid/lib/python3.11/site-packages/transformer_lens/hook_points.py", line 291, in add_hook
+    hook_point = self.mod_dict[name]
+                 ~~~~~~~~~~~~~^^^^^^
+KeyError: 'blocks.12.hook_resid_post'

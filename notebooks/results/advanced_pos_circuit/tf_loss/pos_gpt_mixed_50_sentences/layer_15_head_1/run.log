@@ -1,0 +1,124 @@
+/home/basan/fmvalid/lib/python3.11/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.81it/s]
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+Loaded pretrained model gemma-2b into HookedTransformer
+/home/basan/scratch/subtasks_pos/subtasks_of_language/notebooks/run_advanced_pos_circuit.py:157: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  ans_tokens = torch.stack([torch.tensor((ans_clean))]).to(device)
+Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 1 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 2 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 3 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:21
+Completed 4 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:21
+Completed 5 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:21
+Completed 6 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 7 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:21
+Completed 8 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:21
+Completed 9 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:21
+Completed 10 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 11 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:21
+Completed 12 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:21
+Completed 13 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 14 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 15 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 16 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 17 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 18 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 19 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 20 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 21 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 22 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 23 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:21
+Completed 24 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 25 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 26 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 27 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 28 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 29 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 30 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 31 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 32 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 33 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 34 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 35 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 36 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 37 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 38 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 39 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 40 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 41 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 42 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 43 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 44 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 45 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 46 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 47 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 48 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 49 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 50 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 51 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 52 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 53 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 54 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 55 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 56 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 57 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 58 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 59 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 60 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 61 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 62 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 63 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 64 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 65 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 66 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 67 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 68 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 69 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 70 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 71 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 72 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 73 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 74 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 75 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 76 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 77 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 78 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 79 samplesWorking... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:20
+Completed 80 samplesOUTPUT tensor([[-5.4427e+01, -1.0856e+02,  1.0602e+02,  1.2530e+00,  2.9851e+01,
+          6.8479e+01, -3.9465e+01,  2.5924e+00],
+        [ 8.4968e+00,  9.7711e+01,  1.4372e+02, -9.7700e+00,  2.2306e+01,
+          3.5232e+01, -2.1310e+01, -1.1241e+01],
+        [-3.5562e+01,  5.8637e+01,  1.2138e+02, -2.0938e+01,  2.2598e+01,
+          9.9928e+00,  1.8424e+02,  7.8847e+01],
+        [ 3.7404e+01,  2.4206e+01,  6.0437e+00, -2.3033e+01,  3.4266e+01,
+         -1.5457e+01, -2.7784e+01, -1.9852e+01],
+        [ 3.9127e+01,  8.0291e+00,  5.7347e+01,  8.8438e+01, -2.2018e+00,
+         -3.3079e+01,  7.0556e+00, -3.4231e+01],
+        [ 8.3741e+01,  2.8518e+00, -2.1189e+01,  2.0538e+01,  7.1578e+01,
+          5.5297e+01,  2.6696e+01, -2.9716e+01],
+        [ 3.3721e+01,  5.3975e+00,  3.5774e+01,  5.7423e+00,  2.5925e+01,
+         -4.9965e-01, -3.5889e+01, -4.8612e+01],
+        [ 2.9834e+01, -1.0764e+00, -8.7527e+01,  1.2591e+00, -2.5094e+01,
+          9.3949e+01, -5.6333e-02, -3.0810e+01],
+        [-7.5308e+01,  8.2287e+01,  9.1345e+01, -1.1288e+01,  4.0548e+00,
+         -2.5914e+01, -3.7529e+01,  5.2733e+00],
+        [ 1.0988e+01, -2.2560e+00, -1.8467e+01, -2.5284e+01,  5.9962e+01,
+          3.9359e+01, -3.7425e+01, -1.9397e+00],
+        [ 9.8747e+01,  2.2067e+01, -4.6393e+01, -2.3138e+01,  3.5375e+01,
+          2.5473e+02,  6.9499e+00, -2.5977e+02],
+        [-5.9099e-01,  3.9383e+01,  2.8065e+01,  4.6329e+01, -1.9786e+01,
+         -1.5677e+02,  3.5612e+02, -1.3453e+01],
+        [ 1.0941e+02,  3.5898e+01,  6.3046e+00, -3.7508e+01, -2.0595e+01,
+          1.4087e+02, -2.7999e+01, -1.7183e+02],
+        [-6.3052e+01, -7.3953e+00,  4.4831e+01, -3.7788e+01, -6.3043e+01,
+         -2.7012e+00,  4.0519e+01, -1.2668e+01],
+        [-8.7699e+01,  6.8603e+01, -6.7559e+01, -6.8329e+01, -1.1365e+01,
+         -9.6996e-01,  1.0499e+02,  4.4940e+01],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00],
+        [ 0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00,  0.0000e+00,  0.0000e+00]])
+Saving to results/advanced_pos_circuit/tf_loss/pos_gpt_mixed_50_sentences/layer_15_head_1/deneme_datasetpos_gpt_mixed_50_sentences_layer_head_15-1.npy

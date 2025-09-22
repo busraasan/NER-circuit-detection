@@ -1,0 +1,602 @@
+[
+  {
+    "Sentence": "That is, the US public and scholars have, started to show concerns over the issue of right and wrong in WW II, the moral issue, that is, the US has started to pay attention to this issue.",
+    "POS tag": "EVENT",
+    "Answer": "WW II"
+  },
+  {
+    "Sentence": "She always sets aside a little time for herself on New Year's Eve to do just this.",
+    "POS tag": "EVENT",
+    "Answer": "New Year's Eve"
+  },
+  {
+    "Sentence": "Well, as al - Jazeera TV station has been able to develop into its current status, what do you think has it relied upon so that its competitiveness and influential power, even surpassed CNN and BBC during the Iraq war ?",
+    "POS tag": "EVENT",
+    "Answer": "the Iraq war"
+  },
+  {
+    "Sentence": "Bi Li said that the goal of the Chinese Women's Football Team in the Asian Games would be to strive for champion but confirm second.",
+    "POS tag": "EVENT",
+    "Answer": "the Asian Games"
+  },
+  {
+    "Sentence": "It is reported that after it received the scientific achievement award of Heilongjiang's Chinese Medicine Administrative Bureau in 1992, the Liver Healing Capsule also received a top award at the Malaysia International New Technology and New Product Exhibition, and in May of this year, it received the gold medal at the third National Medical and Health Care Products Fair.",
+    "POS tag": "EVENT",
+    "Answer": "the Malaysia International New Technology and New Product Exhibition"
+  },
+  {
+    "Sentence": "According to its person in charge, the company planned to sell World Cup air during the present World Cup.",
+    "POS tag": "EVENT",
+    "Answer": "World Cup"
+  },
+  {
+    "Sentence": "The first Le Tian Cup China and Korea Go competition started today at Fushan, the second largest city of Korea.",
+    "POS tag": "EVENT",
+    "Answer": "Le Tian Cup China"
+  },
+  {
+    "Sentence": "He said that Oliver North of Iran - Contra notoriety thought he had erased his computer but that the information was later retrieved for congressional committees to read.",
+    "POS tag": "EVENT",
+    "Answer": "Iran - Contra"
+  },
+  {
+    "Sentence": "He hopes that this issue would be resolved before the Christmas holiday.",
+    "POS tag": "EVENT",
+    "Answer": "Christmas"
+  },
+  {
+    "Sentence": "That is, the reason why it can establish itself is that it first relied on the Afghan war, and then the Iraq war after the 9 11.",
+    "POS tag": "EVENT",
+    "Answer": "the Afghan war"
+  },
+  {
+    "Sentence": "Hardest hit by Hugo in South Carolina were small retailers tied to the tourist industry and businesses in agriculture and cultivated seafood.",
+    "POS tag": "EVENT",
+    "Answer": "Hugo"
+  },
+  {
+    "Sentence": "Pele led Brazil to three World Cup titles and scored more than 1200 goals.",
+    "POS tag": "EVENT",
+    "Answer": "World Cup"
+  },
+  {
+    "Sentence": "Never before -- not even in the post-World War II heyday of the powerful China Lobby with its formidable grip on Capitol Hill but not within the upper reaches of the Executive itself -- had so many of such uncritical adherence to the policies of a foreign power been so well placed in Washington.",
+    "POS tag": "EVENT",
+    "Answer": "post-World War II"
+  },
+  {
+    "Sentence": "According to today's statistics, 2076 people from 42 countries and regions have formally registered for this Sports Meet, among them 1423 are athletes; 1360 news reporters have registered to cover the Sports Meet, among which, 98 are overseas reporters.",
+    "POS tag": "EVENT",
+    "Answer": "the Sports Meet"
+  },
+  {
+    "Sentence": "The third step will be to go to the US to take part in the big four world match.",
+    "POS tag": "EVENT",
+    "Answer": "the big four world match"
+  },
+  {
+    "Sentence": "The space shuttle Atlantis landed at a desert air strip at Edwards Air Force Base, Calif., ending a five - day mission that dispatched the Jupiter - bound Galileo space probe.",
+    "POS tag": "LOCATION",
+    "Answer": "Edwards Air Force Base"
+  },
+  {
+    "Sentence": "The House approved a short - term spending bill to keep the government operating through Nov. 15 and provide $2.85 billion in emergency funds to assist in the recovery from Hurricane Hugo and the California earthquake.",
+    "POS tag": "LOCATION",
+    "Answer": "California"
+  },
+  {
+    "Sentence": "And Christopher Frank writes from New York about a West Virginia teacher Toni Woods who was sentenced to four to twenty for having sex with four boys under the age of sixteen.",
+    "POS tag": "LOCATION",
+    "Answer": "West Virginia"
+  },
+  {
+    "Sentence": "There are promotional prices for Dhi Qar Province, ah, to improve the status of contruction in the province.",
+    "POS tag": "LOCATION",
+    "Answer": "Dhi Qar Province"
+  },
+  {
+    "Sentence": "But what's interesting is this guy Paul Hackett who was on this show last week used the most amazing language in describing the President of the United States.",
+    "POS tag": "LOCATION",
+    "Answer": "the United States"
+  },
+  {
+    "Sentence": "At the same time Palestinians are saying they will not sign a peace deal with Israel that fails to give them sovereignty over all of Arab East Jerusalem or allow the return of refugees.",
+    "POS tag": "LOCATION",
+    "Answer": "Israel"
+  },
+  {
+    "Sentence": "After the policy was formally announced for the Pudong Lujiazui Financial Trade District to allow foreign capital banks to operate RMB business, more than 40 foreign capital banks and financial institutions have submitted applications to establish branches in Pudong.",
+    "POS tag": "LOCATION",
+    "Answer": "Lujiazui Financial Trade District"
+  },
+  {
+    "Sentence": "He is president and chief executive officer of Comerica Inc. in Detroit.",
+    "POS tag": "LOCATION",
+    "Answer": "Detroit"
+  },
+  {
+    "Sentence": "Britain's industrial production rose 1.5% in August from July and was up 0.9% from August 1988, according to provisional data from the Central Statistical Office.",
+    "POS tag": "LOCATION",
+    "Answer": "Britain"
+  },
+  {
+    "Sentence": "The Pentagon tonight says the analyst reports could not have pinpointed the Cole attack, but there's a growing consensus on Capitol Hill that officials here should have seen this disaster coming.",
+    "POS tag": "LOCATION",
+    "Answer": "Capitol Hill"
+  },
+  {
+    "Sentence": "Xinhua News Agency, Beijing, January 14th, by reporter Yongjian Lu",
+    "POS tag": "LOCATION",
+    "Answer": "Beijing"
+  },
+  {
+    "Sentence": "But at age 55, they may be a great deal, says Mr. Wilson, the Columbia, S.C., planner.",
+    "POS tag": "LOCATION",
+    "Answer": "S.C."
+  },
+  {
+    "Sentence": "The Reagan administration also put Mr. Noriega's G - 2 back on the U.S. payroll.",
+    "POS tag": "LOCATION",
+    "Answer": "U.S."
+  },
+  {
+    "Sentence": "Telxon Corp. said its vice president for manufacturing resigned and its Houston work force has been trimmed by 40 people, or about 15%.",
+    "POS tag": "LOCATION",
+    "Answer": "Houston"
+  },
+  {
+    "Sentence": "Rising inflation in Poland and Hungary makes Czechoslovak food, clothing and shoes relatively cheap for visitors from these countries.",
+    "POS tag": "LOCATION",
+    "Answer": "Hungary"
+  },
+  {
+    "Sentence": "The record price for associate membership is $275,000, set Aug. 30, 1988.",
+    "POS tag": "MONEY",
+    "Answer": "275,000"
+  },
+  {
+    "Sentence": "Debenture holders are expected to convert most of the debentures into common because the value of the stock received in a conversion would exceed the $1,103.11 redemption price.",
+    "POS tag": "MONEY",
+    "Answer": "1,103.11"
+  },
+  {
+    "Sentence": "Investing four million Swiss francs earned from his financial transactions and two million Swiss francs from his parents and his wife, Mr. Rey acquired 20% of Bally's shares.",
+    "POS tag": "MONEY",
+    "Answer": "four million Swiss francs"
+  },
+  {
+    "Sentence": "Nikko's pretax profit rose 1.6% to 130.25 billion yen from 128.19 billion yen.",
+    "POS tag": "MONEY",
+    "Answer": "130.25 billion yen"
+  },
+  {
+    "Sentence": "Along the way, Mr. Tharp omitted a total of $1.5 million from his receipts reported on federal tax returns for three years.",
+    "POS tag": "MONEY",
+    "Answer": "$1.5 million"
+  },
+  {
+    "Sentence": "Meanwhile, Japan's Fair Trade Commission said it was considering launching an investigation into whether the bid, the equivalent of less than a penny, violates anti-monopoly laws.",
+    "POS tag": "MONEY",
+    "Answer": "less than a penny"
+  },
+  {
+    "Sentence": "and they cost seventy thousand marks a year",
+    "POS tag": "MONEY",
+    "Answer": "seventy thousand marks"
+  },
+  {
+    "Sentence": "Assets of these and other short - term funds surged more than $5 billion in September, the institute said.",
+    "POS tag": "MONEY",
+    "Answer": "more than $5 billion"
+  },
+  {
+    "Sentence": "The figures are at seasonally adjusted annual rates in trillions of dollars.",
+    "POS tag": "MONEY",
+    "Answer": "trillions of dollars"
+  },
+  {
+    "Sentence": "According to statistics, the balance of deposits in RMB of Bank of China reached 591.239 billion yuan last year, the balance of loans for all items in RMB reached 564.452 billion yuan; the balance of deposits for foreign currency was 35.508 billion US dollars and the balance of loans for all items with cash foreign exchange was 39.787 billion US dollars.",
+    "POS tag": "MONEY",
+    "Answer": "591.239 billion yuan"
+  },
+  {
+    "Sentence": "Aside from as much as $3.45 billion in recently approved federal aid, the state is expected to draw from a gubernatorial emergency fund that currently stands at an estimated $700 million.",
+    "POS tag": "MONEY",
+    "Answer": "an estimated $700 million"
+  },
+  {
+    "Sentence": "Through investment banker Drexel Burnham Lambert Inc., SCI TV is offering to exchange three classes of junk bonds for packages of new bonds and equity that investors value at ranges from 20 cents to 70 cents on the dollar.",
+    "POS tag": "MONEY",
+    "Answer": "20 cents"
+  },
+  {
+    "Sentence": "She said that the chemical industry's 1998 annual gross output value could reach 300 billion yuan, continuously maintaining 8% growth.",
+    "POS tag": "MONEY",
+    "Answer": "300 billion yuan"
+  },
+  {
+    "Sentence": "The deficit is expected to drop from September's record high of $34.3 billion, to just over $33 billion.",
+    "POS tag": "MONEY",
+    "Answer": "$34.3 billion"
+  },
+  {
+    "Sentence": "Turner Broadcasting System Inc. said it expects to report an extraordinary loss of about $122 million in the fourth quarter due to early retirement of debt.",
+    "POS tag": "MONEY",
+    "Answer": "about $122 million"
+  },
+  {
+    "Sentence": "Pravda gave no estimate for overall unemployment but said an Association of the Unemployed has cropped up that says the number of jobless is 23 million Soviets, or 17% of the work force.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Soviets"
+  },
+  {
+    "Sentence": "Mr. Abalkin, head of the Academy of Science's Institute of Economics, was recently appointed deputy chairman of the Soviet government and head of a state commission on economic reform.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Soviet"
+  },
+  {
+    "Sentence": "However, sources noted that Israel does not agree to such a step, saying that there is a widespread impression among circles informed on Israeli politics that just as Israel wants the current Syrian regime to stay in place - and it proved this in its war on Lebanon last summer - then with the same logic, it is comfortable with a Syrian regime in Lebanon and a government in which Hizbollah is represented but under the control of a specific, known Syrian regime.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Israeli"
+  },
+  {
+    "Sentence": "Let's look at Jewish voters.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Jewish"
+  },
+  {
+    "Sentence": "And the Chinese government takes a positive attitude regarding the issue of Chinese corporations coming to Kyrgyzstan to invest.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Chinese"
+  },
+  {
+    "Sentence": "The new fitness trend incorporates Western and Eastern health ideas, offering diversified options to enthusiasts.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Western"
+  },
+  {
+    "Sentence": "The Iraqis are in line behind their compatriots who have been waiting in Jordan since the late 1990s.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Iraqis"
+  },
+  {
+    "Sentence": "When receiving reporters telephone interviews, Runan Wang, leader of the Chinese delegation presented that, overall speaking, the strength of the Korean team was stronger than the Chinese team.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Chinese"
+  },
+  {
+    "Sentence": "As the demonstrators scattered there was a prolonged gunfight, and this evening Israeli helicopter gun ships have used their machine guns in a confrontation near the town of Bethlehem.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Israeli"
+  },
+  {
+    "Sentence": "And on Capitol Hill tonight, no signs that the close margins in Congress have mellowed Republican Majority Whip Tom DeLay.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Republican"
+  },
+  {
+    "Sentence": "Note: There's a piece by George Packer in The New Yorker -LRB- Betrayed: the Iraqis who trusted America the most -RRB- about all this, but it's way too long to blog here.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Iraqis"
+  },
+  {
+    "Sentence": "She was seemingly present for just about every event involving local politicians, sometimes national ones, and various high - ranking officials of the Chinese government.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Chinese"
+  },
+  {
+    "Sentence": "From Chevy trucks to Lipton iced tea to a host of battling banks, the state has been inunTIMEd with broadcast commercials and print advertising campaigns celebrating Texans and castigating outsiders.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Texans"
+  },
+  {
+    "Sentence": "Today, Singapore's Zaobao.com reporter Yu Zeyuan filed a report from Beijing -- Chinese Official Media Silent on 28th Anniversary of Mao Zedong's Death,",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "Chinese"
+  },
+  {
+    "Sentence": "Japanese and European steelmakers, which have led the recent technology developments, are anxiously awaiting the lifting of trade restraints in 1992.",
+    "POS tag": "NATIONALITY, RELIGIOUS, or POLITICAL GROUP",
+    "Answer": "European"
+  },
+  {
+    "Sentence": "According to overseas research, although people have more worries in middle age, only around 15% have emotional difficulties serious enough to require psychological counseling or medication.",
+    "POS tag": "NUMERICAL",
+    "Answer": "15%"
+  },
+  {
+    "Sentence": "About 47% are loyal for one to five of the products.",
+    "POS tag": "NUMERICAL",
+    "Answer": "About 47%"
+  },
+  {
+    "Sentence": "Currently, Xiamen's port possesses five main lines of international container transportation to Japan, Singapore, Korea, U.S., the Mediterranean, etc., forming a container shipping system combining main and branch lines.",
+    "POS tag": "NUMERICAL",
+    "Answer": "five"
+  },
+  {
+    "Sentence": "That would give Republicans a 51 majority.",
+    "POS tag": "NUMERICAL",
+    "Answer": "51"
+  },
+  {
+    "Sentence": "It has established economic and trade relations with 110 countries and regions of the world, and annual import and export foreign trade volumes are 15 billion US dollars.",
+    "POS tag": "NUMERICAL",
+    "Answer": "110"
+  },
+  {
+    "Sentence": "two on each foot",
+    "POS tag": "NUMERICAL",
+    "Answer": "two"
+  },
+  {
+    "Sentence": "235 general purpose funds increased $2.53 billion to $116.56 billion, while 96 broker - dealer funds increased $1.3 billion to $154.05 billion.",
+    "POS tag": "NUMERICAL",
+    "Answer": "235"
+  },
+  {
+    "Sentence": "U.S. makers have under 10% share, compared with half the market in Europe and 80% at home.",
+    "POS tag": "NUMERICAL",
+    "Answer": "80%"
+  },
+  {
+    "Sentence": "He is best known for his work on two award - winning documentaries which appeared on CNN exposing the world to the Taliban rule in Afghanistan.",
+    "POS tag": "NUMERICAL",
+    "Answer": "two"
+  },
+  {
+    "Sentence": "Three page Crown Royal ad features a black - and - white shot of a boring holiday party -- and a set of colorful stickers with which readers can dress it up.",
+    "POS tag": "NUMERICAL",
+    "Answer": "three"
+  },
+  {
+    "Sentence": "13% of you say Saddam Hussein.",
+    "POS tag": "NUMERICAL",
+    "Answer": "13%"
+  },
+  {
+    "Sentence": "NTU's College of Management opened its doors to 44 professionals on a trial basis in 1996, attracting a phenomenal 990 applicants.",
+    "POS tag": "NUMERICAL",
+    "Answer": "990"
+  },
+  {
+    "Sentence": "Dun & Bradstreet Corp. said business failures fell 17.8% to 11,586 in the third quarter from 14,099 in the year - earlier period.",
+    "POS tag": "NUMERICAL",
+    "Answer": "11,586"
+  },
+  {
+    "Sentence": "According to the report by Russia's News Agency - Tass, Chernomyrdin said that compared with 1996, last year Russia's GDP grew 1.2%, industrial production grew 3.2%, and the total volume of retail commodities grew 3.9%, with an annual inflation rate of 11%, which was a half of that of 1996, and residents' income increased 2.5%.",
+    "POS tag": "NUMERICAL",
+    "Answer": "1.2%"
+  },
+  {
+    "Sentence": "If a majority opposes the Executive Yuan's decision, there are three ways under the ROC Constitution to resolve the standoff:",
+    "POS tag": "NUMERICAL",
+    "Answer": "three"
+  },
+  {
+    "Sentence": "John Yoo of University of California Berkeley who served in the justice department from two thousand and one to two thousand and three.",
+    "POS tag": "PERSON",
+    "Answer": "John Yoo"
+  },
+  {
+    "Sentence": "Such fervor for cycling helped Mr. Sinyard build a creative company at the forefront of its industry.",
+    "POS tag": "PERSON",
+    "Answer": "Sinyard"
+  },
+  {
+    "Sentence": "Let's talk about what Ms. Johnson wrote in the Washington Post today.",
+    "POS tag": "PERSON",
+    "Answer": "Ms. Johnson"
+  },
+  {
+    "Sentence": "Nevertheless, Mr. Clinton says he is not satisfied with the measure.",
+    "POS tag": "PERSON",
+    "Answer": "Clinton"
+  },
+  {
+    "Sentence": "At present, the most senior government official to have studied in Taiwan is Ou Wenlong, who graduated in mechanical engineering at National Taiwan University -LRB- NTU -RRB-.",
+    "POS tag": "PERSON",
+    "Answer": "Ou Wenlong"
+  },
+  {
+    "Sentence": "The resolution was a collaboration involving North Korean Ambassador Li Hyong Chow of South Korea and was co-sponsored by more than 150 other nations.",
+    "POS tag": "PERSON",
+    "Answer": "Li Hyong Chow"
+  },
+  {
+    "Sentence": "Her dismissal angered many in the regional theater establishment and led Peter Zeisler, head of Theatre Communications Group, to write an editorial in American Theatre magazine condemning the board.",
+    "POS tag": "PERSON",
+    "Answer": "Peter Zeisler"
+  },
+  {
+    "Sentence": "And since the American orientation so far has not been completely elaborated, especially after, James Baker.",
+    "POS tag": "PERSON",
+    "Answer": "James Baker"
+  },
+  {
+    "Sentence": "In fact, regarding Putin's visit to Japan this time, the media earlier predicted, among other things, that when the time came, there would be more than 60 groups totaling more than 700 people, along with, hey, more than 200 propaganda trucks on the streets of downtown Tokyo, to protest against Putin's visit to Japan.",
+    "POS tag": "PERSON",
+    "Answer": "Putin"
+  },
+  {
+    "Sentence": "Malaysia's Prime Minister Mahathir Mohamad sniffed, If everybody else puts out their left foot and you put out your right foot, you are out of step.",
+    "POS tag": "PERSON",
+    "Answer": "Mahathir Mohamad"
+  },
+  {
+    "Sentence": "Law also does a good job of giving Joey Wang, who plays the reincarnation of an ancient Chinese courtesan, a darkly beautiful aura.",
+    "POS tag": "PERSON",
+    "Answer": "Joey Wang"
+  },
+  {
+    "Sentence": "Dinkins lost twice by wide margins before finally getting elected borough president in 1985.",
+    "POS tag": "PERSON",
+    "Answer": "Dinkins"
+  },
+  {
+    "Sentence": "For President Bush recess appointments have gone to conservative Judges.", 
+    "POS tag": "PERSON",
+    "Answer": "President Bush"
+  },
+  {
+    "Sentence": "I'm going to start with Melanie just back ten days ago what did you smell over there?",
+    "POS tag": "PERSON",
+    "Answer": "Melanie"
+  },
+  {
+    "Sentence": "When a reporter asked about the present situation of Sino - Russian relations and the prospects of co-operation, President Zemin Jiang said that relations between the countries of China and Russia have been developing smoothly in the areas of politics, economy and trade, science and technology, education, culture, etc.",
+    "POS tag": "PERSON",
+    "Answer": "President Zemin Jiang"
+  },
+  {
+    "Sentence": "According to industry analysts, Chrysler plants most likely to close are the St. Louis No. 1 LOCATION, which builds Chrysler LeBaron and Dodge Daytona models; the Toledo, Ohio, Jeep plant, which TIMEs back to the early 1900s; and two Canadian plants that build the Jeep Wrangler and Chrysler's full - sized vans.",
+    "POS tag": "PRODUCT",
+    "Answer": "LeBaron"
+  },
+  {
+    "Sentence": "Adm. Goupil, a former Crusader squadron leader, said that the last other country to use Crusaders, the Philippines, retired its last ones two years ago.",
+    "POS tag": "PRODUCT",
+    "Answer": "Crusaders"
+  },
+  {
+    "Sentence": "Two of the 757 - 200s are new aircraft to be delivered to American Trans Air, the main subsidiary of Amtran Inc., in December 1991 and January 1992.",
+    "POS tag": "PRODUCT",
+    "Answer": "the 757 - 200s"
+  },
+  {
+    "Sentence": "A huge Norwegian transport vessel is to carry the Cole across the Atlantic Ocean.",
+    "POS tag": "PRODUCT",
+    "Answer": "Cole"
+  },
+  {
+    "Sentence": "Our Navy commanders they know pretty well and all that's going on now points that these people want to hide the real thing that had happened onboard of Kursk.",
+    "POS tag": "PRODUCT",
+    "Answer": "Kursk"
+  },
+  {
+    "Sentence": "The restyled 300ZX costs as much as $33,000 and is squared off against the Porche 944, which begins at $41,900.",
+    "POS tag": "PRODUCT",
+    "Answer": "300ZX"
+  },
+  {
+    "Sentence": "The CF6 - 6 series engines aren't being manufactured any more; they are only being used in the DC - 10 Series 10 planes currently in service, he said.",
+    "POS tag": "PRODUCT",
+    "Answer": "DC - 10 Series 10"
+  },
+  {
+    "Sentence": "People often stay with a particular brand because they want to be associated with the image its advertising conveys, whether that's macho Marlboro cigarettes or Cher's Uninhibited perfume.",
+    "POS tag": "PRODUCT",
+    "Answer": "Uninhibited"
+  },
+  {
+    "Sentence": "Among these, the reduction rate is larger for smaller and mid-sized cars, such as Honda City, Toyota Vios, Hyundai Accent, Chevy Lova, Honda Fit, Hyundai Elantra, Hyundai Sonata, Toyota Crown, and Honda Accord, where price reductions ranged from about 10 NUMERICAL to 20 NUMERICAL.",
+    "POS tag": "PRODUCT",
+    "Answer": "Fit"
+  },
+  {
+    "Sentence": "Boeing 747 airplanes can land at the recently built Jiangbei Airport.",
+    "POS tag": "PRODUCT",
+    "Answer": "Boeing 747"
+  },
+  {
+    "Sentence": "Tugs push the Cole into position over the deck and the Marlin rises to lift the 8,000 - ton warship out of the water.",
+    "POS tag": "PRODUCT",
+    "Answer": "Marlin"
+  },
+  {
+    "Sentence": "The Navy is ordering displays for its Aegis cruisers and the Army wants smaller versions for its Abrams battle tanks.",
+    "POS tag": "PRODUCT",
+    "Answer": "Aegis"
+  },
+  {
+    "Sentence": "Nissan instead has kept its new Stanza a bit smaller than that and cut the base price 6%; at $11,450, Stanza prices start $749 below the predecessor model yet have a more - powerful engine.",
+    "POS tag": "PRODUCT",
+    "Answer": "Stanza"
+  },
+  {
+    "Sentence": "After the confusion surrounding the change of the Coke formula in 1985, Coca - Cola was reluctant to clutter the Classic name with a brand extension.",
+    "POS tag": "PRODUCT",
+    "Answer": "Coca - Cola"
+  },
+  {
+    "Sentence": "Quickview Systems Inc. said it filed a lawsuit against Apple Computer Inc., claiming patent infringement in an element of Apple's popular HyperCard software program.",
+    "POS tag": "PRODUCT",
+    "Answer": "HyperCard"
+  },
+  {
+    "Sentence": "With our ongoing inside look at eToys, one of the symbols of the new economy, we continue in depth tonight with NBC's Anne Thompson.",
+    "POS tag": "TIME",
+    "Answer": "tonight"
+  },
+  {
+    "Sentence": "Late yesterday afternoon, DDB Needham executives were scrambling to figure out what to do about a new business presentation that had been scheduled for today, a spokesman said.",
+    "POS tag": "TIME",
+    "Answer": "yesterday"
+  },
+  {
+    "Sentence": "CERTIFICATES OF DEPOSIT: 8.05% one month; 8.02% two months; 8% three months; 7.98% six months; 7.95% one year.",
+    "POS tag": "TIME",
+    "Answer": "two months"
+  },
+  {
+    "Sentence": "9:53 a.m.",
+    "POS tag": "TIME",
+    "Answer": "9:53 a.m."
+  },
+  {
+    "Sentence": "It would be surprising if they didn't come to Frankfurt in time for 1992, and they bring an interesting tradition.",
+    "POS tag": "TIME",
+    "Answer": "1992"
+  },
+  {
+    "Sentence": "Last month, American Home Products said it was suspending production and distribution of all 21 of Quantum's generic drug products pending the completion of an exhaustive internal audit.",
+    "POS tag": "TIME",
+    "Answer": "Last month"
+  },
+  {
+    "Sentence": "September's Hang Seng Consumer Price Index, which measures price changes for the 10% of urban households spending HK$10,000 and HK$24,999 a month, was up 11% from a year ago and up 1.3% from August.",
+    "POS tag": "TIME",
+    "Answer": "August"
+  },
+  {
+    "Sentence": "The return to work Thursday came at the urging of Catholic NUMERICAL Roger Mahodi who said the labor dispute was hurting the poor who rely on public services.",
+    "POS tag": "TIME",
+    "Answer": "Thursday"
+  },
+  {
+    "Sentence": "Arthur Klein, president of Young & Rubicam's New York office, stepped down temporarily in the wake of charges by a federal grand jury in New Haven, Conn., that he, the agency and another top executive bribed Jamaican tourist officials to win its account in 1981.",
+    "POS tag": "TIME",
+    "Answer": "1981"
+  },
+  {
+    "Sentence": "To find out why, the group recently commissioned a study of the past 20 years of bowling - related research.",
+    "POS tag": "TIME",
+    "Answer": "the past 20 years"
+  },
+  {
+    "Sentence": "Well his term ends in January of oh seven.",
+    "POS tag": "TIME",
+    "Answer": "January of oh seven"
+  },
+  {
+    "Sentence": "Completion of the sale is expected early next year, Falcon said.",
+    "POS tag": "TIME",
+    "Answer": "early next year"
+  },
+  {
+    "Sentence": "Qin Shi Huang united China in the year 221 B.C.",
+    "POS tag": "TIME",
+    "Answer": "the year 221 B.C"
+  },
+  {
+    "Sentence": "According to statistics, up to the end of July this year, Tianjin had approved a total of 871 Taiwanese business invested enterprises.",
+    "POS tag": "TIME",
+    "Answer": "up to the end of July this year"
+  },
+  {
+    "Sentence": "Maryland Stadium Authority -- $137.6 million of sports facilities lease revenue bonds, Series 1989 D, due 1992 - 1999, 2004, 2009 and 2019, tentatively priced at par by a Morgan Stanley group to yield from 6.35% in 1992 to 7.60% in 2019.",
+    "POS tag": "TIME",
+    "Answer": "2019"
+  }
+]
