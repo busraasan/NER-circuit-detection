@@ -8,9 +8,7 @@ PYTHON="${PYTHON:-python}"
 
 # Datasets to run
 DATASETS=(
-  #"../../pos_cf_datasets/merged_dataset_tv.json"
-  "../../pos_cf_datasets/ner_dataset_20each.json"
-  # "../../pos_cf_datasets/pos_gpt_mixed_50_sentences.json"
+  "../data/ner_dataset_15each.json"
 )
 
 # (layer,head) pairs. Use "None" for no head argument.
