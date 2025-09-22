@@ -128,28 +128,3 @@ def save_output(
     np.save(path, arr)
     return path
 
-PTB_TO_COARSE = {
-    # Nouns
-    "NN":"noun","NNS":"noun","NNP":"noun","NNPS":"noun",
-    # Verbs (incl. modals as Verb for coarse)
-    "VB":"verb","VBD":"verb","VBG":"verb","VBN":"verb","VBP":"verb","VBZ":"verb","MD":"verb",
-    # Adjectives
-    "JJ":"adjective","JJR":"adjective","JJS":"adjective",
-    # Adverbs
-    "RB":"adverb","RBR":"adverb","RBS":"adverb","WRB":"adverb",
-    # Pronouns
-    "PRP":"pronoun","PRP$":"pronoun","WP":"pronoun","WP$":"pronoun",
-    # Prepositions / Subordinators
-    "IN":"preposition","TO":"preposition",
-    # Determiners
-    "DT":"determiner","PDT":"determiner","WDT":"determiner",
-    # Conjunctions
-    "CC":"conjunction",
-    # Numbers
-    "CD":"number",
-    # Particles
-    "RP":"particle",
-    # Everything else
-    "EX":"other","FW":"other","LS":"other","SYM":"other","UH":"other","POS":"other",
-    "``":"other","''":"Other",",":"Other",".":"Other",":":"Other","-LRB-":"other","-RRB-":"other"
-}
